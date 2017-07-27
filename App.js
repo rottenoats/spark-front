@@ -7,6 +7,14 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <Text>The future of spark is here!</Text>
       </View>
+      <MapView
+        initialRegion={{
+          latitude: 37.78825,
+              longitude: -122.4324,
+              latitudeDelta: 0.0922,
+              longitudeDelta: 0.0421,
+        }}
+      />
     );
   }
 }
